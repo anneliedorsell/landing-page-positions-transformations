@@ -11,7 +11,7 @@ a {
    color: black; 
 }
 
-/* a är länktagg */
+/* a is linktag */
 
 .list {
     display: flex;
@@ -54,14 +54,82 @@ li {
     color: #FFFFFF;
 }
 
+
+
 .header-container {
+    
     display: flex;
     flex-direction: row;
     padding: 40px;
     margin: 40px;
+    justify-content: left;
+}
 
+.header-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.button { 
+    width: 173px;
+    height: 53px;
+    background-color: #FF9900;
+    font-weight: normal;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+.header-button {
+    display: inline;
+    width: 366px;
+    height: 53px;
+    flex-direction: row; 
+    margin-top: 40px;
+}
+.button img {
+    padding: 10px;
+}
+
+
+
+.feature-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
+.feature-header {
+    display: flex;
+    flex-direction: row;
+    width: 539px;
+    margin-bottom: 20px;
+}
+
+.feature-content {
+    
+    display: flex;
+    max-width: 1095px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.first-content, .second-content, .third-content, .last-content {
+    padding-right: 20px;
+
+}
+
+.feature-button {
+    margin-top: 30px;
+}
+    
+    
+   
+    
+
+
 
 
 
