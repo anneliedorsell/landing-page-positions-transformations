@@ -79,6 +79,7 @@ li {
     border-radius: 4px;
     color: #FFFFFF;
     border-style: none;
+    margin-top: 20px ;
 }
 
 .header-button {
@@ -93,11 +94,12 @@ li {
 }
 
 
-
 .feature-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px;
+    margin: 40px;
 
 }
 .feature-header {
@@ -124,10 +126,115 @@ li {
 .feature-button {
     margin-top: 30px;
 }
+
+.effortless-container {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin: 40px;
+    justify-content: left
+}
+
+.easier-container {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin: 40px;
+    justify-content: left
+}
+
+.easier-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+span {
+    margin-right: 10px;
+}
+
+.optimism-container {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin: 40px;
+    justify-content: left;
+}
+
+.optimism-text {
     
-    
+    margin-right: 20px;
+
+}
    
+.footer-container {
+
+    display: flex;
+    flex-direction: row;
+    height: 308px;
+    padding: 40px;
+    margin: 40px;
+    justify-content: space-between;
+    align-items: flex-end;
+}  
+
+.footer-logo {
+    display: flex;
+    align-self: flex-start;
+}
+
+.footer-list-about-us {
+    line-height: 2.3;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.footer-list-disclaimer {
+    line-height: 2.3;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+
+}
+
+.footer-button {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    align-items: flex-start;
     
+    
+}
+
+.squere {
+    display: flex;
+    width: 325px;
+    height: 48px;
+    border-style: solid;
+    border-color:#BCD0E5
+    
+}
+
+
+
+
+
+/* 
+.footer-list-about-us {
+    display: flex;
+}
+
+.footer-list-disclaimer {
+    display: flex;
+    
+}
+
+.footer-button-signup {
+    display: flex;
+
+} 
+
+*/
 
 
 
